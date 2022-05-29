@@ -39,6 +39,7 @@ _ReSharper*/
 *_mm_cache.bin
 $SSH_ENV
 Solutions/packages
+[Pp]ackages
 .vs
 project.lock.json
 project.fragment.lock.json
