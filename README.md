@@ -1,4 +1,4 @@
-# DbfDataReader
+# DbfDataReader.net461
 
 [![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader.net461) 
 [![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader.net461)
