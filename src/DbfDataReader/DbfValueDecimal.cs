@@ -24,7 +24,7 @@ namespace DbfDataReader
             }
             else
             {
-                var stringValue = Encoding.ASCII.GetString(bytes);
+                var stringValue = Encoding.ASCII.GetString(bytes.ToArray());
 
                 if (decimal.TryParse(stringValue,
                     NumberStyles.Float | NumberStyles.AllowLeadingWhite | NumberStyles.AllowTrailingWhite,

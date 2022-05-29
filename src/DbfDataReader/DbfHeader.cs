@@ -101,10 +101,10 @@ namespace DbfDataReader
             var day = bytes[3];
 
             UpdatedAt = new DateTime(year + 1900, month, day);
-
-            RecordCount = BitConverter.ToUInt32(bytes[4..]);
-            HeaderLength = BitConverter.ToUInt16(bytes[8..]);
-            RecordLength = BitConverter.ToUInt16(bytes[10..]);
+            
+            RecordCount = BitConverter.ToUInt32(bytes.Slice(4).ToArray(), 0);
+            HeaderLength = BitConverter.ToUInt16(bytes.Slice(8).ToArray(), 0);
+            RecordLength = BitConverter.ToUInt16(bytes.Slice(10).ToArray(), 0);
 
             // See https://www.clicketyclick.dk/databases/xbase/format/dbf.html
 

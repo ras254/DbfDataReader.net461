@@ -22,7 +22,7 @@ namespace DbfDataReader
                 return;
             }
 
-            var value = Encoding.GetString(bytes);
+            var value = Encoding.GetString(bytes.ToArray());
             Value = value.Trim(NullChar, ' ');
         }
     }

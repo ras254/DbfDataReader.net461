@@ -22,7 +22,7 @@ namespace DbfDataReader
 
         private void Read(ReadOnlySpan<byte> bytes, Encoding encoding)
         {
-            var rawName = encoding.GetString(bytes.Slice(0, 11));
+            var rawName = encoding.GetString(bytes.Slice(0, 11).ToArray());
             var nullIdx = rawName.IndexOf((char)0);
             if (nullIdx >= 0)
             {
@@ -39,7 +39,7 @@ namespace DbfDataReader
 
             if (ColumnType == DbfColumnType.Character)
             {
-                Length =  BitConverter.ToInt16(bytes.Slice(16, 2));
+                Length =  BitConverter.ToInt16(bytes.Slice(16, 2).ToArray(), 0);
                 DecimalCount = 0;
             }
             else

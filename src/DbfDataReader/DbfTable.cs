@@ -46,7 +46,7 @@ namespace DbfDataReader
         private void Init()
         {
             Header = new DbfHeader(Stream);
-            CurrentEncoding ??= EncodingProvider.GetEncoding(Header.LanguageDriver);
+            CurrentEncoding = CurrentEncoding != null ? CurrentEncoding : EncodingProvider.GetEncoding(Header.LanguageDriver);
             Columns = ReadColumns(Stream);
         }
 

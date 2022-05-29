@@ -17,12 +17,12 @@ namespace DbfDataReader
         {
             if (Length == 4)
             {
-                var startBlock = BitConverter.ToUInt32(bytes);
+                var startBlock = BitConverter.ToUInt32(bytes.ToArray(), 0);
                 Value = _memo.Get(startBlock);
             }
             else
             {
-                var value = Encoding.GetString(bytes);
+                var value = Encoding.GetString(bytes.ToArray());
 
                 if (string.IsNullOrWhiteSpace(value))
                 {

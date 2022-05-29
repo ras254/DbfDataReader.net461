@@ -10,7 +10,7 @@ namespace DbfDataReader
 
         public override void Read(ReadOnlySpan<byte> bytes)
         {
-            Value = BitConverter.ToInt32(bytes);
+            Value = BitConverter.ToInt32(bytes.ToArray(), 0);
         }
     }
 }

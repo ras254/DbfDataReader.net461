@@ -20,7 +20,7 @@ namespace DbfDataReader
             }
             else
             {
-                var stringValue = Encoding.ASCII.GetString(bytes);
+                var stringValue = Encoding.ASCII.GetString(bytes.ToArray());
 
                 if (Int64.TryParse(stringValue,
                     NumberStyles.Integer | NumberStyles.AllowLeadingWhite | NumberStyles.AllowTrailingWhite,

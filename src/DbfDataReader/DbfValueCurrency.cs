@@ -14,7 +14,7 @@ namespace DbfDataReader
 
         public override void Read(ReadOnlySpan<byte> bytes)
         {
-            var value = BitConverter.ToInt64(bytes);
+            var value = BitConverter.ToInt64(bytes.ToArray(), 0);
             Value = value / 10000.0f;
         }
 
