@@ -1,7 +1,7 @@
 # DbfDataReader.net461
 
-[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader.net461) 
-[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader.net461)
+[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.net461.svg)](https://www.nuget.org/packages/DbfDataReader.net461) 
+[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.net461.svg)](https://www.nuget.org/packages/DbfDataReader.net461)
 
 DbfDataReader.net461 is a .net Framework 4.6.1 library for reading dBase, xBase, Clipper and FoxPro database files
 
