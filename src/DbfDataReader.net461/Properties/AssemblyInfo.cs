@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DbfDataReader.net461")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("DbfDataReader.net461 is a .net Framework 4.6.1 library for reading dBase, xBase, Clipper and FoxPro database files")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ras254")]
 [assembly: AssemblyProduct("DbfDataReader.net461")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCopyright("Copyright ras254, 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
