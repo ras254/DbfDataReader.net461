@@ -1,11 +1,9 @@
-# DbfDataReader
+# DbfDataReader.net461
 
-[![CI](https://github.com/yellowfeather/DbfDataReader/actions/workflows/ci.yml/badge.svg)](https://github.com/yellowfeather/DbfDataReader/actions/workflows/ci.yml)
-[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader) 
-[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader)
-[![MyGet Build Status](https://www.myget.org/BuildSource/Badge/dbfdatareader?identifier=54ae0096-55d5-418c-8eb9-54a35df720fb)](https://www.myget.org/)
+[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.net461.svg)](https://www.nuget.org/packages/DbfDataReader.net461) 
+[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.net461.svg)](https://www.nuget.org/packages/DbfDataReader.net461)
 
-DbfDataReader is a small fast .Net Core library for reading dBase, xBase, Clipper and FoxPro database files
+DbfDataReader.net461 is a .net Framework 4.6.1 library for reading dBase, xBase, Clipper and FoxPro database files
 
 Usage, to get summary info:
 
